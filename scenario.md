@@ -4,8 +4,11 @@ Software, pro tajemníka ústavu, který bude spravovat pracovní štítky zames
 
 
 a) Předmět
+
 b) Zaměstnanec
+
 c) Skupina studentů
+
 d) Pracovní štítek
 
 
