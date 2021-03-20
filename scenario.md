@@ -11,6 +11,13 @@ c) Skupina studentů
 
 d) Pracovní štítek
 
+# Technologie:
+
+* Java
+* 
+* SWING
+* 
+* XML
 
 # Funkcionalita:
 
