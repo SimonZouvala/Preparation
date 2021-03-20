@@ -9,7 +9,7 @@
 * Kapacita cvičení: Int: 15
 * Počet týdnů: Int: 1 (u kombinovaného studia 1 jinak defaultně 14)
 * Ukončení: Enum: Kl
-* Počet studentů: Int: 30
+* Kapacita tridy: Int: 30
 * Jazyk: Enum: CZ
 * Seznam skupin: List<Skupina>: množina refencí na **Skupina**
 
@@ -21,7 +21,7 @@
 * Úvazek: Double : 0 až 1
 * Zamestnanec: Boolean: true
 * Pracovní body: Int: 10
-* Pracovní body Angliština: Int: 10
+* Pracovní body bez EN: Int: 10
 * Seznam štítků: List<Pracovní štítek> - množina refencí na **Pracovní štítek**
 
 ## Skupina
@@ -39,6 +39,11 @@
 * Předmět: Předmět: (AP8PO)
 * Jazy: Enum: CZ
 * Počet bodů za pracovní štítek: Int: 10
+* Počet studentů: Int: 30
+* Druh výuky: Enum: přednáška (při ukončení je null)
+* Ukončení: Enum: z (při druh výuky je null)
+* Počet týdnů: Int: 14 (při ukončení je 0)
+* Počet hodin: Int: 2 (při ukončené je 0)
 
 ## Váhy pracovních bodů
 * Hodina přednášky: Double: 1.8
